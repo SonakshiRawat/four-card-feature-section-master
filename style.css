@@ -1,0 +1,175 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+    font-family: 'poppins',sans-serif;
+}
+
+
+#line1{
+    font-size: 40px;
+   color: hsl(234, 12%, 34%);
+   text-align: center;
+   margin-top: 40px;
+
+}
+
+h2{
+    color:hsl(234, 12%, 34%);
+     font-size: 40px;
+    text-align: center;
+
+}
+
+h3{
+    color:hsl(234, 12%, 34%);
+}
+
+.para{
+    color:hsl(229, 6%, 66%);
+    padding:25px ;
+    text-align: center;
+
+}
+
+.mssg{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 1px 1px 15px #888888;
+    margin: 20px;
+    width: 24%;
+    height: 32vh;
+    position: absolute;
+}
+.mssg1{
+    margin: 5px;
+    border-top: 5px solid hsl(180, 62%, 55%); 
+    top:77%;
+    left: 7%;
+    
+}
+.mssg2{
+    margin: 5px;
+    border-top: 5px solid hsl(0, 78%, 62%); 
+    top:55%;
+    left: 36%;
+}
+.mssg3{
+    margin: 5px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    top:99%;
+    left: 36%;
+}
+.mssg4{
+    margin: 5px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    top:77%;
+    left: 65%;
+    right: 5%;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.img{
+    padding-top:5px;
+}
+
+.col{
+    display: flex;
+    flex-direction:row;
+    float: right;
+    width: 70px;
+}
+
+@media (max-width:916px) {
+    .mssg{
+        height: 35vh;
+    }
+    
+    .mssg1{
+        left: 3%;  
+    }
+    
+    .mssg3{
+        top:103%;
+    }
+
+    .mssg4{
+        left: 69%;
+    }
+    .img{
+        padding-top: 1px;
+    }
+}
+
+@media (max-width:600px) {
+    
+    .coll{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+    }
+
+    .mssg{
+        width: 80%;
+        height: 32vh;
+    }
+
+    .mssg1{
+        top:57%;  
+        left:5%;
+    }
+    .mssg2{
+        top:103%;
+        left:5%;
+    }
+    .mssg3{
+        top:149%;
+        left: 5%;
+    }
+    .mssg4{
+        top:195%;
+        left: 5%;
+    }
+    
+}
+
+@media (max-width:490px) {
+
+    #line1{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .para{
+        padding: 1px;
+    }
+
+}
+
+@media (max-width:377px) {
+.mssg1{
+    top:70%;  
+    left:3%;
+}
+.mssg2{
+    top:116%;
+    left:3%;
+}
+.mssg3{
+    top:162%;
+    left: 3%;
+}
+.mssg4{
+    top:208%;
+    left: 3%;
+}
+}
